@@ -3,6 +3,9 @@ import { AiFillDashboard } from "react-icons/ai";
 import { IoPersonSharp } from "react-icons/io5";
 import { FaBookOpen } from "react-icons/fa";
 import NavLink  from './NavLink';
+import { House } from 'lucide-react';
+import { Book } from 'lucide-react';
+import { User } from 'lucide-react';
 
 function Navbar() {
 
@@ -11,19 +14,22 @@ function Navbar() {
             id:1,
             name:"Dashboard",
             path:'/',
-            icon: <AiFillDashboard />
+            icon: "house",
+            color:"red",
         },
         {
             id:2,
             name:"About",
             path:'/about',
-            icon: <IoPersonSharp />
+            icon: "user",
+            color:"blue"
         },
         {
             id:3,
             name:"Books",
             path:'/books',
-            icon: <FaBookOpen />
+            icon: "book",
+            color:"blue",
         },
     ]
 
@@ -34,7 +40,7 @@ function Navbar() {
 
                 {
                     navigation.map(itemNav => (
-                        <NavLink key={itemNav.id} name={itemNav.name} path={itemNav.path} icon={itemNav.icon} />
+                        <NavLink key={itemNav.id} name={itemNav.name} path={itemNav.path} icon={itemNav.icon} color={itemNav.color} />
                     ))
                 }
         </nav>
