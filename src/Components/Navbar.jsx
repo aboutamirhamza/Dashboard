@@ -13,21 +13,21 @@ function Navbar() {
         {
             id:1,
             name:"Dashboard",
-            path:'/',
+            path:'/dashboard/home',
             icon: "house",
             color:"red",
         },
         {
             id:2,
             name:"About",
-            path:'/about',
+            path:'/dashboard/about',
             icon: "user",
             color:"blue"
         },
         {
             id:3,
             name:"Books",
-            path:'/books',
+            path:'/dashboard/books',
             icon: "book",
             color:"blue",
         },

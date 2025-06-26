@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 function SearchBar({rounded,setBooks,allbooks}) {
   const handleChange = (e)=>{
       const filteredBooks = allbooks.filter(book => {
-          return book.name.toLowerCase().includes(e.target.value.toLowerCase());
+          return book.name.toLowerCase().includes(e.target.value.toLowerCase()) || book.desc.toLowerCase().includes(e.target.value.toLowerCase()) || book.status.toLowerCase().includes(e.target.value.toLowerCase());
       });
       setBooks(filteredBooks);
   }

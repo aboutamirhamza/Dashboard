@@ -8,7 +8,7 @@ function Sidebar() {
   return (
     <>
         <div>
-            <div className='flex flex-col justify-between bg-gray-200 min-h-screen'>
+            <div className='flex flex-col justify-between bg-gray-200 min-h-screen extrasmall:justify-start extrasmall:gap-20 extrasmall:min-h-0 lg:justify-between lg:gap-0 lg:min-h-screen'>
                 
                 <div>
                     <div className='flex flex-col gap-4'>
