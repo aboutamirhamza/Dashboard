@@ -8,6 +8,7 @@ export default {
     extend: {
       spacing:{
         primary: "1320px",
+        'footer-line': '1px',
       },
 
       screens:{
@@ -27,6 +28,7 @@ export default {
 
       colors:{
         'hero-color': '#4B330B',
+        'section-color': '#CC9600',
       },
 
     },

@@ -10,8 +10,8 @@ import About from './Pages/About.jsx'
 import FrontendLayout from './Layout/FrontendLayout.jsx'
 import SettingsPage from './Pages/SettingsPage.jsx'
 import LogoutPage from './Pages/LogoutPage.jsx'
-import Header from './Components/FrontEnd/Header/Header.jsx'
-
+import ShopNow from './Pages/FrontEnd/ShopNow.jsx'
+import HomePage from './Pages/FrontEnd/HomePage.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,7 +26,8 @@ createRoot(document.getElementById('root')).render(
         </Route>
 
         <Route path='/' element={<FrontendLayout />}>
-            <Route index element={<Header />} />
+        <Route index element={<HomePage />} /> 
+            <Route path='/home/shop' element={<ShopNow />} />
         </Route>
       </Routes>
     </BrowserRouter>
