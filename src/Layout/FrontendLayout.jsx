@@ -1,9 +1,17 @@
 import React from 'react'
-import { Outlet } from 'react-router';
+import Header from '../Components/FrontEnd/Header/Header'
+import Hero from '../Components/FrontEnd/Hero/Hero'
+import BestPicks from '../Components/FrontEnd/BestPicks/BestPicks'
+import MagicSections from '../Components/FrontEnd/MagicSections/MagicSections'
 
 function FrontendLayout() {
   return (
-    <div><Outlet /></div>
+    <div>
+      <Header />
+      <Hero />
+      <BestPicks />
+      <MagicSections />
+    </div>
   )
 }
 

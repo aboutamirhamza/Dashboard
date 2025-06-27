@@ -7,7 +7,7 @@ import Profile from '../../../img/frontend/profile/profile.png'
 
 function Header() {
   return (
-    <header className='bg-bookpoint-header-bg bg-cover bg-center py-2'>
+    <header className='bg-bookpoint-header-bg bg-cover bg-bottom py-2'>
         <div className='max-w-primary mx-auto px-4'>
             <Flex className='justify-between extrasmall:flex-col gap-4 py-4 lg:flex-row lg:py-0'>
                 <div>
