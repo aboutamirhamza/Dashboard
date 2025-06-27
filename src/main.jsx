@@ -8,6 +8,9 @@ import HomeDashboard from './Pages/Home.jsx'
 import Books from './Pages/Books.jsx'
 import About from './Pages/About.jsx'
 import FrontendLayout from './Layout/FrontendLayout.jsx'
+import SettingsPage from './Pages/SettingsPage.jsx'
+import LogoutPage from './Pages/LogoutPage.jsx'
+import Header from './Components/FrontEnd/Header/Header.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,10 +21,12 @@ createRoot(document.getElementById('root')).render(
             <Route path='/dashboard/home' element={<HomeDashboard />} />
             <Route path='/dashboard/about' element={<About />} />
             <Route path='/dashboard/books' element={<Books />} />
+            <Route path='/dashboard/settings' element={<SettingsPage />} />
+            <Route path='/dashboard/logout' element={<LogoutPage />} />
         </Route>
 
         <Route path='/' element={<FrontendLayout />}>
-            {/* <Route index element={<Home />} /> */}
+            <Route index element={<Header />} />
         </Route>
       </Routes>
     </BrowserRouter>

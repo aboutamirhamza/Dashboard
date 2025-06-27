@@ -1,8 +1,9 @@
 import React from 'react'
+import { Outlet } from 'react-router';
 
 function FrontendLayout() {
   return (
-    <div>FrontendLayout</div>
+    <div><Outlet /></div>
   )
 }
 

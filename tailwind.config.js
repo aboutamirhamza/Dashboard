@@ -14,6 +14,16 @@ export default {
         'extrasmall': "320px",
       },
 
+      fontFamily: {
+        'inter': '"Inter", sans-serif',
+        'bona': '"Bona Nova", serif',
+      },
+
+      backgroundImage:{
+        'bookpoint-header-bg': "url('./src/img/frontend/header/headerbg.jpg')",
+        'bookpoint-hero-bg': "url('./src/img/frontend/hero/hero.jpg')",
+      },
+
     },
   },
   plugins: [],

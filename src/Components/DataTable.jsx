@@ -107,7 +107,7 @@ import DataTableFooter from './DataTableFooter'
     {
       id:11,
       name:"Misery",
-      desc:"The standard chunk of Lorem Ipsum used since",
+      desc:"The standard chunk of  used since",
       status:"Open",
       rate:"$60.00",
       balance:"-$270.00",

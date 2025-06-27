@@ -3,6 +3,8 @@ import Profile from '../img/profile/profile.jpg';
 import NavLink from './NavLink';
 import { IoIosSettings } from "react-icons/io";
 import { IoIosLogOut } from "react-icons/io";
+import SettingsPage from '../Pages/SettingsPage';
+import LogoutPage from '../Pages/LogoutPage';
 
 function SidebarUserDetails() {
 
@@ -26,10 +28,10 @@ function SidebarUserDetails() {
             </div>
 
             <div>
-                <NavLink name="Settings" path="/settings" icon={<IoIosSettings />} />
+                <NavLink name="Settings" path="/dashboard/settings" icon={<IoIosSettings />} linked={<SettingsPage />} />
             </div>
             <div>
-                <NavLink name="Logout" path="/settings" icon={<IoIosLogOut />} />
+                <NavLink name="Logout" path="/dashboard/logout" icon={<IoIosLogOut />} linked={<LogoutPage />} />
             </div>
         </div>
     </>
