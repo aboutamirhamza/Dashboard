@@ -21,8 +21,8 @@ export default {
       },
 
       backgroundImage:{
-        'bookpoint-header-bg': "url('./src/img/frontend/header/headerbg.jpg')",
-        'bookpoint-hero-bg': "url('./src/img/frontend/hero/hero.jpg')",
+        'bookpoint-header-bg': "url('/img/frontend/header/headerbg.jpg')",
+        'bookpoint-hero-bg': "url('/img/frontend/hero/hero.jpg')",
         'gold-radial': 'radial-gradient(50% 50% at 50% 50%, #CC9600 0%, #F70 100%)',
       },
 
