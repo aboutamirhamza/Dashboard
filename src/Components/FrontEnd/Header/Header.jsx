@@ -17,19 +17,19 @@ function Header() {
                     <Flex>
                     <ul className='flex gap-10 extrasmall:flex-col lg:flex-row'>
                         <li>
-                            <Link to='/' className='font-bona text-xl text-white'>Home</Link>
+                            <Link to='/' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Home</Link>
                         </li>
                         <li>
-                            <Link to='/' className='font-bona text-xl text-white'>About</Link>
+                            <Link to='/' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>About</Link>
                         </li>
                         <li>
-                            <Link to='home/shop' className='font-bona text-xl text-white'>Shop</Link>
+                            <Link to='/home/shop' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Shop</Link>
                         </li>
                         <li>
-                            <Link to='/' className='font-bona text-xl text-white'>Delivery Team</Link>
+                            <Link to='/' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Delivery Team</Link>
                         </li>
                         <li>
-                            <Link to='/' className='font-bona text-xl text-white'>Sellers</Link>
+                            <Link to='/' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Sellers</Link>
                         </li>
                     </ul>
                     </Flex>

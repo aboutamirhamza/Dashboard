@@ -27,7 +27,7 @@ createRoot(document.getElementById('root')).render(
 
         <Route path='/' element={<FrontendLayout />}>
         <Route index element={<HomePage />} /> 
-            <Route path='/home/shop' element={<ShopNow />} />
+            <Route path='home/shop' element={<ShopNow />} />
         </Route>
       </Routes>
     </BrowserRouter>
