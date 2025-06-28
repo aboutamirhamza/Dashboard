@@ -18,16 +18,16 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/dashboard' element={<AdminLayout />}>
-            <Route path='/dashboard/home' element={<HomeDashboard />} />
-            <Route path='/dashboard/about' element={<About />} />
-            <Route path='/dashboard/books' element={<Books />} />
-            <Route path='/dashboard/settings' element={<SettingsPage />} />
-            <Route path='/dashboard/logout' element={<LogoutPage />} />
+            <Route path='home' element={<HomeDashboard />} />
+            <Route path='about' element={<About />} />
+            <Route path='books' element={<Books />} />
+            <Route path='settings' element={<SettingsPage />} />
+            <Route path='logout' element={<LogoutPage />} />
         </Route>
 
         <Route path='/' element={<FrontendLayout />}>
-        <Route index element={<HomePage />} /> 
-            <Route path='home/shop' element={<ShopNow />} />
+            <Route index element={<HomePage />} /> 
+            <Route path='shop' element={<ShopNow />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -23,7 +23,7 @@ function Header() {
                             <Link to='/' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>About</Link>
                         </li>
                         <li>
-                            <Link to='/home/shop' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Shop</Link>
+                            <Link to='/shop' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Shop</Link>
                         </li>
                         <li>
                             <Link to='/' className='font-bona text-xl text-white hover:text-section-color hover:transition-colors'>Delivery Team</Link>
